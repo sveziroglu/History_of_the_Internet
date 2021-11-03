@@ -1,72 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-    <meta name="description" content="This is an example of a meta description.
-This will often show up in search results.">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-    <link rel="stylesheet" href="CSS/style.css">
-
-    <style>
-        #primaryLinks {
-            height: 100px;
-            line-height: 100px;
-            width: 552px;
-            text-align: right;
-            float: right;
-            margin: 0;
-        }
-
-        #primaryLinks li {
-            display: inline;
-        }
-
-        #primaryLinks menu {
-            padding-top: 0;
-            padding-left: 0;
-            margin: 0;
-        }
-
-        #logo {
-            float: left;
-            width: 367px;
-            height: 100px;
-        }
-        #wrapper {
-            width: 960px;
-            margin-left: auto;
-            margin-right: auto;
-
-        }
-        #logo img {
-            height: 100px;
-        }
-
-        #primaryContent {
-        clear: both;
-            width: 1500px;
-            float: left;
-            margin-right: auto;
-            margin-left: auto;
-        }
-
-#footer {
-    text-align: center;
-    float: bottom;
-    position: fixed;
-}
-
-#topContent {
-    margin-left: auto;
-    margin-right: auto;
-
-}
-    </style>
-
+    <title>Bootstrap Card</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
+
 <body>
 <div id="wrapper">
     <div id="logo">
@@ -83,30 +27,33 @@ This will often show up in search results.">
         <li><a href="growth.html">Growth</a></li>
     </menu>
 </div>
-
-
-<div id="topContent">
-    Something to write.
-
-
+<div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Learn More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="about.html">Early Internet</a>
+                    <a class="dropdown-item" href="theory.html">Theories</a>
+                    <a class="dropdown-item" href="technologies.html">Technologies</a>
+                    <a class="dropdown-item" href="advancement.html">Advancement</a>
+                    <a class="dropdown-item" href="responsibleparties.html">Important People</a>
+                    <a class="dropdown-item" href="growth.html">Growth</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 </div>
-
-<article id="primaryContent">
-    <h1 style="color: black; font-size: 50pt; font-family: 'Arial Black'; text-align: center">History of the Internet</h1>
-    <p>
-    <ul>
-        <li style="font-weight: bolder; font-size: larger">Where did the theory of the internet begin?</li>
-    </p>
-    <p>
-    <li style="font-weight: bolder; font-size: larger">How did it expand and become more advanced?</li>
-    </p>
-     <p>
-    <li style="font-weight: bolder; font-size: larger">Who are the responsible parties?</li>
-     </p>
-
-    </ul>
-    </p>
-
 
 </article>
 <div id="sideContent">
