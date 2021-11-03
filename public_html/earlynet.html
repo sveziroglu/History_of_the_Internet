@@ -1,108 +1,67 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Early Internet</title>
+    <title>Bootstrap Card</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div id="wrapper">
-    <div id="logo">
-        <img src="Images/Internet.jpeg" alt="logo" ;/>
-    </div>
-    <menu id="primaryLinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="theory.html">Theory</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="technologies.html">Technologies</a></li>
-        <li><a href="earlynet.html">Early Internet</a></li>
-        <li><a href="advancement.html">Advancement</a></li>
-        <li><a href="responsibleparties.html">Important People</a></li>
-        <li><a href="growth.html">Growth</a></li>
-    </menu>
-</div>
-
-<div style="position:relative; right:750px; top:100px; background-color:white;font-size: 30pt; font-family: Impact; letter-spacing: 10px">
-    Early Internet
-</div>
 
 <div class="container">
-    <div class="image" ; style="position:relative; right:750px; top:100px; background-color:white;">
-        <img src="Images/pexels-sal-de-lellis-9683980.jpg" alt="Growth of the Internet" ; height="400" ; width="400" ;/>
-    </div>
+    <h2 style="font-family: Impact; letter-spacing: 5px;">Early Internet</h2>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink" role="button">
+                        Learn More
+                    </a>
+                    <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                        <a class="dropdown-item" href="about.html">About</a>
+                        <a class="dropdown-item" href="theory.html">Theories</a>
+                        <a class="dropdown-item" href="technologies.html">Technologies</a>
+                        <a class="dropdown-item" href="earlynet.html">Early Internet</a>
+                        <a class="dropdown-item" href="advancement.html">Advancement</a>
+                        <a class="dropdown-item" href="responsibleparties.html">Important People</a>
+                        <a class="dropdown-item" href="growth_old.html">Growth</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="text" ; style="position: relative; right: 850px; top: 150px; font-size: 12pt; font-family: Cambria;">
-        <ul>
-            <li>In 1975, at the age of 19, <span><b>Bill Gates</b></span> dropped out of Harvard to start <span><b>Microsoft</b></span>  with his high school friend Paul Allen.  His vision was a PC on every desktop in every home in every office and every one of those pcs running Microsoft software.
-            </li>
-            <li>By 1993, about 90% of the world's PCs were running Microsoft Windows.  Gates and his trusted lieutenant, Steve Ballmer, were determined not to let a new startup interfere with Microsoft’s success.
-            </li>
-            <li>The co-founder and CEO of Microsoft, had established a near monopoly over PC operating systems and set up an online system called the Microsoft Network in 1994.
-            </li>
-            <li>But, in the next few months, <span><b>Jim Clark</b></span> and his band of young web browser pioneers would launch the fastest-growing software company the world had ever seen, <span><b>Netscape Communications</b></span>.  On October 13, 1994, <span><b>Netscape Navigator</b></span> hit the streets and in 30 days, 90% of the people who were on the web switched from Mosaic to Netscape.
-            </li>
-            <li>Late one night, Gates sent out a memo entitled the Internet Tidal Wave where he declared that the web was “the single most important development in computing since the PC.”  In June of 1995, Microsoft and Netscape met behind closed doors in a controversial meeting where Microsoft offered 1 million dollars for unlimited access to all of Netscape’s technology as a one-time deal or else they would just copy them anyway.
-            </li>
-            <li>On December 7, 1995, Microsoft released a web browser of its own called <span><b>Internet Explorer</b></span>.  By 1996, Microsoft & Netscape were in a power struggle over who would win the web war but by September of 1997, the browser war was over and Microsoft had emerged triumphant.
-            </li>
-            <li>The United States Department of Justice launched an antitrust lawsuit against Bill Gates's company accusing Microsoft of using its <span><b>Microsoft Windows</b></span> monopoly to engage in a wide variety of predatory and exclusionary business practices.  In June of 2000, the federal judge issued his final verdict of guilty, causing their stock market value to plunge by $30B overnight and resulted in Gates stepping down as CEO.
-            </li>
-        </ul>
-    </div>
+    <p>
+    <ul>
+        <li>In 1975, at the age of 19, <span><b>Bill Gates</b></span> dropped out of Harvard to start <span><b>Microsoft</b></span> with his high school friend Paul Allen.  His vision was to have a PC on every desktop in every home in every office and every one of those pcs running Microsoft software.</li>
+        <li>By 1993, about 90% of the world's PCs were running Microsoft Windows.  Gates and his trusted lieutenant, Steve Ballmer, were determined not to let a new startup interfere with Microsoft’s success.</li>
+        <li>The co-founder and CEO of Microsoft, had established a near monopoly over PC operating systems and set up an online system called the <span><b>Microsoft Network</b></span> in 1994.</li>
+        <li>But, in the next few months, <span><b>Jim Clark</b></span> and his band of young web browser pioneers would launch the fastest-growing software company the world had ever seen, <span><b>Netscape Communications</b></span>.</li>
+    </ul>
+    </p>
+
+    <img ; ;alt="earlynet" height="400px"src="Images/pexels-sal-de-lellis-9683980.jpg" style="align-content: center; width: 350px"/>
+
+    <p>
+    <ul>
+    <li>On October 13, 1994, <span><b>Netscape Navigator</b></span> hit the streets and in 30 days, 90% of the people who were on the web switched from Mosaic to Netscape.</li>
+    <li>Bill Gates began to imagine a browser could be an alternative platform where you could carry out all your computing needs online.</li>
+    <li>Late one night, Gates sent out a memo entitled the Internet Tidal Wave where he declared that the web was “the single most important development in computing since the PC.”  In June of 1995, Microsoft and Netscape met behind closed doors in a controversial meeting where Microsoft offered 1 million dollars for unlimited access to all of Netscape’s technology as a one-time deal or else they would just copy them anyway.</li>
+    <li>On December 7, 1995, Microsoft released a web browser of its own called <span><b>Internet Explorer</b></span>.  By 1996, Microsoft & Netscape were in a power struggle over who would win the web war but by September of 1997, the browser war was over and Microsoft had emerged triumphant.</li>
+    <li>The United States Department of Justice launched an antitrust lawsuit against Bill Gates's company accusing Microsoft of using its <span><b>Microsoft Windows</b></span> monopoly to engage in a wide variety of predatory and exclusionary business practices.  In June of 2000, the federal judge issued his final verdict of guilty, causing their stock market value to plunge by $30B overnight and resulted in Gates stepping down as CEO.</li>
+    </ul>
+    </p>
+
 </div>
-
-<style>
-    #logo {
-        float: left;
-        width: 367px;
-        height: 100px;
-    }
-
-    #wrapper {
-        width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    #logo img {
-        height: 100px;
-    }
-
-    #primaryLinks li {
-        display: inline;
-    }
-
-    #primaryLinks menu {
-        padding-top: 0px;
-        padding-left: 0px;
-        margin: 0px;
-    }
-
-    .image {
-        position: absolute;
-        right: 300px;
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center
-    }
-
-    img {
-        max-width: 100%
-    }
-
-    .image {
-        flex-basis: 300%
-    }
-
-    .text {
-        font-size: 20px;
-        padding-left: 20px;
-    }
-
-</style>
+</div>
 </body>
 </html>
-
