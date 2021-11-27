@@ -1,7 +1,7 @@
 #Project2 - Calculator Python Explanation
 
-GitHub Website:https://sveziroglu.github.io/History_of_the_Internet/public_html/index.html
+GitHub Website:
 
-Azure Website: http://history.eastus.azurecontainer.io/
+Azure Website: 20.102.22.60:80
 
 Sandra Veziroglu
