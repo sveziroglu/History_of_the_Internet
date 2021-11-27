@@ -1,6 +1,6 @@
 #Project2 - Calculator Python Explanation
 
-GitHub Website:https://github.com/sveziroglu/History_of_the_Internet.git
+GitHub Website:https://sveziroglu.github.io/History_of_the_Internet/public_html/
 
 Azure Website: http://history.eastus.azurecontainer.io/
 
