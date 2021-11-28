@@ -48,20 +48,25 @@
         <p> 2.<b> Act:</b> Take the necessary 'actions' or steps to perform the test.</p>
         <p> 3.<b> Assert:</b> Verify the results of the testing.</p>
     </li>
-    <li style="font-size: 20pt;font-family: Impact">Example Code:</li>
-    <p><code style="font-size: 18pt">def test_subtraction(value_a,value_b):</code></p>
-    <p><code style="font-size: 18pt">"""return value_a - value_b"""</code></p>
-    <p><code style="font-size: 18pt">assert Subtraction.subtract(1,2) == -1</code></p>
+    <li style="font-size: 14pt;font-weight: bolder;">Example Code:</li>
+    <p><code style="font-size: 14pt">def test_subtraction(value_a,value_b):</code></p>
+    <p><code style="font-size: 14pt">"""return value_a - value_b"""</code></p>
+    <p><code style="font-size: 14pt">assert Subtraction.subtract(1,2) == -1</code></p>
     </ul>
     </p>
 
-    <img ; ;alt="growth" height="400px"src="Images\pexels-thisisengineering-3861969.jpg" style="align-content: center; width: 600px"/>
+    <h2 style="font-family: Impact;"><u>External Testing: Travis CI</u></h2>
+    <p>
+        <img src="Images/Travis%20build.png"; alt="Sandrapassingtravis"; style="width: 1000px;height: 500px"/>
+    </p>
 
     <p>
     <ul>
-    <li>University of Illinois computer science student <span><b>Marc Andreessen</b></span> imagined a future where everyone including regular people would use the web as part of our daily lives.  Andreessen soon had a bunch of his college programming pals working on making the web easier and more intuitive to use by adding images, pictures, audio and video.</li>
-    <li>In 1993 they posted their browser, <span><b>Mosaic</b></span>, online and made it a free download.  The browser spread like wildfire from just a dozen downloads to over a million and caught the eye of Silicon Graphics’ Jim Clark.  He contacted Marc Andreessen and proposed starting a new software company to turn Mosaic into the basis of a business venture.</li>
-    <li>Congress decided that the Web could be used for commercial purposes and opened up <span><b>ARPAnet</b></span> to the public.</li>
+    <li>
+        External testing is exactly what it sounds like: testing outside of python. In this article, we will use Travis CI as an external testing source. In the picture above is the best case scenario you want to see when you test your code on Travis.</li>
+    <li>
+        Travis CI basically does what we had discussed earlier regarding linting files. Travis also checks all files for any errors and makes sure your code is written correctly.
+    </li>
     </ul>
     </p>
 
@@ -79,3 +84,4 @@
 
 </body>
 </html>
+
