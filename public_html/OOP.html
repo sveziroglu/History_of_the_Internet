@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Early Internet</title>
+    <title>OOP</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -12,7 +12,7 @@
 <body>
 
 <div class="container">
-    <h2 style="font-family: Impact; letter-spacing: 5px;">Early Internet</h2>
+    <h2 style="font-family: Impact;">Object Oriented Programming (OOP) with Examples</h2>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
@@ -27,13 +27,11 @@
                         Learn More
                     </a>
                     <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                        <a class="dropdown-item" href="about.html">About Us</a>
-                        <a class="dropdown-item" href="theory.html">Theory of the Net</a>
-                        <a class="dropdown-item" href="AAAtesting.html">Invention of the Technologies</a>
-                        <a class="dropdown-item" href="OOP.html">Early Internet</a>
-                        <a class="dropdown-item" href="SOLID.html">Advancement of the Net</a>
-                        <a class="dropdown-item" href="responsibleparties.html">Important People</a>
-                        <a class="dropdown-item" href="growth.html">Growth of the Internet</a>
+                        <a class="dropdown-item" href="about.html">About Me (also a rookie)</a>
+                        <a class="dropdown-item" href="Pylintandothers.html">Pylint & Others</a>
+                        <a class="dropdown-item" href="AAAtesting.html">AAA Testing</a>
+                        <a class="dropdown-item" href="OOP.html">Object Oriented Programming (OOP)</a>
+                        <a class="dropdown-item" href="SOLID.html">SOLID Object Oriented Design </a>
                     </div>
                 </li>
             </ul>
@@ -42,24 +40,46 @@
 
     <p>
     <ul>
-        <li>In 1975, at the age of 19, <span><b>Bill Gates</b></span> dropped out of Harvard to start <span><b>Microsoft</b></span> with his high school friend Paul Allen.  His vision was to have a PC on every desktop in every home in every office and every one of those pcs running Microsoft software.</li>
-        <li>By 1993, about 90% of the world's PCs were running Microsoft Windows.  Gates and his trusted lieutenant, Steve Ballmer, were determined not to let a new startup interfere with Microsoft’s success.</li>
-        <li>The co-founder and CEO of Microsoft, had established a near monopoly over PC operating systems and set up an online system called the <span><b>Microsoft Network</b></span> in 1994.</li>
-        <li>But, in the next few months, <span><b>Jim Clark</b></span> and his band of young web browser pioneers would launch the fastest-growing software company the world had ever seen, <span><b>Netscape Communications</b></span>.</li>
+        <li>
+            In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. The main concept of OOPs is to bind the data and the functions that work on that together as a single unit so that no other part of the code can access this data. (see link to this site in footer)
+        </li>
     </ul>
     </p>
-
-    <img ; ;alt="earlynet" height="400px"src="Images/pexels-sal-de-lellis-9683980.jpg" style="align-content: center; width: 400px"/>
+<h2>Definitions and Examlples of OOP Concepts:</h2>
+   <img src="Images/OOP%20Concepts.png"; alt="concepts"; style="width: 700px; height: 500px"/>
 
     <p>
     <ul>
-    <li>On October 13, 1994, <span><b>Netscape Navigator</b></span> hit the streets and in 30 days, 90% of the people who were on the web switched from Mosaic to Netscape.</li>
-    <li>Bill Gates began to imagine a browser could be an alternative platform where you could carry out all your computing needs online.</li>
-    <li>Late one night, Gates sent out a memo entitled the Internet Tidal Wave where he declared that the web was “the single most important development in computing since the PC.”  In June of 1995, Microsoft and Netscape met behind closed doors in a controversial meeting where Microsoft offered 1 million dollars for unlimited access to all of Netscape’s technology as a one-time deal or else they would just copy them anyway.</li>
-    <li>On December 7, 1995, Microsoft released a web browser of its own called <span><b>Internet Explorer</b></span>.  By 1996, Microsoft & Netscape were in a power struggle over who would win the web war but by September of 1997, the browser war was over and Microsoft had emerged triumphant.</li>
-    <li>The United States Department of Justice launched an antitrust lawsuit against Bill Gates's company accusing Microsoft of using its <span><b>Microsoft Windows</b></span> monopoly to engage in a wide variety of predatory and exclusionary business practices.  In June of 2000, the federal judge issued his final verdict of guilty, causing their stock market value to plunge by $30B overnight and resulted in Gates stepping down as CEO.</li>
+    <li><b>Polymorphism:</b> Using the same function for different types of objects.</li>
+    <b>Example:</b>
+    <code>
+        <p>def get_result(self):</p>
+        <p>return self.value_a + self.value_b</p>
+    </code>
     </ul>
     </p>
+    <p>
+        <ul>
+    <li><b>Inheritance:</b> A class deriving properties from another class.</li>
+    <b>Example:</b>
+    <code>
+        <p>from calc.calculations.calculation import Calculation</p>
+    </code>
+    <p>In the above code we are inherting the properties (functions of the calculations) from the "calc" folder's "calculations" class to perform an operation in another class. Below you will see the code for the class "Calculations".</p>
+    <code>
+        <p>def __init__(self,values: tuple):</p>
+        <p>self.values = Calculation.convert_args_to_tuple_of_float(values)</p>
+    </code>
+    The above code gives another class the properties regarding values.
+    </li>
+</ul>
+    </p>
+
+    <p><b>References used:</b></p>
+    <ul>
+        <li><a href="https://www.geeksforgeeks.org/python-oops-concepts/"/>Python OOP Concepts</li></a>
+        <li></li>
+    </ul>
 
 </div>
 </div>
