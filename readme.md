@@ -2,6 +2,6 @@
 
 GitHub Website:
 
-Azure Website: 20.102.22.60:80
+Azure Website: Project2PythonExplain.eastus.azurecontainer.io:80
 
 Sandra Veziroglu
