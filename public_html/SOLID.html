@@ -86,7 +86,14 @@
     <p><stan style="font-size: 30px; font-family: Impact;"><u>4) I: Interface Segregation Principle</u></stan></p>
 
        <p><li>
-           The ISP means no code should have to rely on methods it does not use.
+    The ISP means no code should have to rely on methods it does not use. To prevent this, we should break down large interfaces into smaller ones. We can think of a combination of the single responsibility principle in which the code has one responsibility with the appropriate abstraction, the pulling of higher-module data into lower ones. An example would be tuples.</li></p>
+
+    <code>
+    <p>def __init__(self,values: tuple)</p>
+    <p></p>self.values = Calculation.convert_args_to_tuple_of_float(values)</p>
+</code></p>
+    <p>Tuples can hold large amount of functions/data from another class (abstraction) with one responsibility (single responsibility principle)</p>
+
 </ul>
     <ul>
         <p><stan style="font-size: 30px; font-family: Impact;"><u>5) D: Dependecy Inversion Principle</u></stan></p>
@@ -108,6 +115,9 @@
     </li>
         </p>
     </ul>
+
+    <b>References Used:</b>
+    <li><a href="https://levelup.gitconnected.com/s-o-l-i-d-principles-explained-in-python-with-examples-83b2b43bdcde"/>S.O.L.I.D Principles explained in Python with examples.</li></a>
 </div>
 </div>
 
