@@ -1,5 +1,5 @@
 #Project2 - Calculator Python Explanation
 
-Azure Website: Project2PythonExplain.eastus.azurecontainer.io:80
+Azure Website: http://project2pythonexplain.eastus.azurecontainer.io/index.html
 
 Sandra Veziroglu
